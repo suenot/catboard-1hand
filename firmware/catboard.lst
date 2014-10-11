@@ -6305,29 +6305,29 @@
  2043 0058 38        		.byte	56
  2044 0059 77        		.byte	119
  2045 005a 3F        		.byte	63
- 2046 005b 29        		.byte	41
- 2047 005c 28        		.byte	40
- 2048 005d 00        		.byte	0
+ 2046 005b 17        		.byte	23
+ 2047 005c 0A        		.byte	10
+ 2048 005d 05        		.byte	5
  2049 005e 7C        		.byte	124
  2050 005f 40        		.byte	64
- 2051 0060 4A        		.byte	74
- 2052 0061 50        		.byte	80
- 2053 0062 2A        		.byte	42
+ 2051 0060 15        		.byte	21
+ 2052 0061 09        		.byte	9
+ 2053 0062 19        		.byte	25
  2054 0063 7F        		.byte	127
  2055 0064 41        		.byte	65
- 2056 0065 52        		.byte	82
- 2057 0066 51        		.byte	81
- 2058 0067 4C        		.byte	76
+ 2056 0065 08        		.byte	8
+ 2057 0066 07        		.byte	7
+ 2058 0067 06        		.byte	6
  2059 0068 7E        		.byte	126
  2060 0069 42        		.byte	66
- 2061 006a 4D        		.byte	77
- 2062 006b 4F        		.byte	79
- 2063 006c 49        		.byte	73
+ 2061 006a 1A        		.byte	26
+ 2062 006b 16        		.byte	22
+ 2063 006c 1B        		.byte	27
  2064 006d 00        		.byte	0
  2065 006e 43        		.byte	67
- 2066 006f 4B        		.byte	75
- 2067 0070 4E        		.byte	78
- 2068 0071 00        		.byte	0
+ 2066 006f 14        		.byte	20
+ 2067 0070 04        		.byte	4
+ 2068 0071 1D        		.byte	29
  2069 0072 7A        		.byte	122
  2070 0073 44        		.byte	68
  2071 0074 29        		.byte	41
@@ -6507,45 +6507,45 @@
  2257               		.file 7 "qwerty.h"
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 catboard.c
-     /tmp/ccYhwCqs.s:2      *ABS*:000000000000003e __SP_H__
-     /tmp/ccYhwCqs.s:3      *ABS*:000000000000003d __SP_L__
-     /tmp/ccYhwCqs.s:4      *ABS*:000000000000003f __SREG__
-     /tmp/ccYhwCqs.s:5      *ABS*:0000000000000000 __tmp_reg__
-     /tmp/ccYhwCqs.s:6      *ABS*:0000000000000001 __zero_reg__
-     /tmp/ccYhwCqs.s:13     .text.init_ports:0000000000000000 init_ports
-     /tmp/ccYhwCqs.s:41     .text.init:0000000000000000 init
-     /tmp/ccYhwCqs.s:1891   .data:0000000000000001 led
+     /tmp/ccuGHzi6.s:2      *ABS*:000000000000003e __SP_H__
+     /tmp/ccuGHzi6.s:3      *ABS*:000000000000003d __SP_L__
+     /tmp/ccuGHzi6.s:4      *ABS*:000000000000003f __SREG__
+     /tmp/ccuGHzi6.s:5      *ABS*:0000000000000000 __tmp_reg__
+     /tmp/ccuGHzi6.s:6      *ABS*:0000000000000001 __zero_reg__
+     /tmp/ccuGHzi6.s:13     .text.init_ports:0000000000000000 init_ports
+     /tmp/ccuGHzi6.s:41     .text.init:0000000000000000 init
+     /tmp/ccuGHzi6.s:1891   .data:0000000000000001 led
                             *COM*:000000000000003c pressed
-     /tmp/ccYhwCqs.s:1938   .bss:000000000000000c caps_lock_led
-     /tmp/ccYhwCqs.s:115    .text.caps_lock_change_layer:0000000000000000 caps_lock_change_layer
-     /tmp/ccYhwCqs.s:1932   .data:000000000000000a layout
-     /tmp/ccYhwCqs.s:2078   .rodata:0000000000000078 layer1
-     /tmp/ccYhwCqs.s:2014   .rodata:000000000000003c layer_fn
-     /tmp/ccYhwCqs.s:1909   .bss:0000000000000009 prev_layer
-     /tmp/ccYhwCqs.s:2192   .rodata:00000000000000e7 layer2
-     /tmp/ccYhwCqs.s:201    .text.change_layout:0000000000000000 change_layout
-     /tmp/ccYhwCqs.s:1944   .data:000000000000000c os_mode
-     /tmp/ccYhwCqs.s:281    .text.get_code:0000000000000000 get_code
-     /tmp/ccYhwCqs.s:354    .text.repeat_tick:0000000000000000 repeat_tick
-     /tmp/ccYhwCqs.s:1865   .bss:0000000000000000 repeat_time
-     /tmp/ccYhwCqs.s:1870   .bss:0000000000000002 release_time
-     /tmp/ccYhwCqs.s:1903   .data:0000000000000002 turbo_repeat
-     /tmp/ccYhwCqs.s:1914   .bss:000000000000000b mod_keys
-     /tmp/ccYhwCqs.s:1886   .data:0000000000000000 last_key
-     /tmp/ccYhwCqs.s:1875   .bss:0000000000000004 press_time2
-     /tmp/ccYhwCqs.s:1880   .bss:0000000000000006 press_time
-     /tmp/ccYhwCqs.s:506    .text.send:0000000000000000 send
-     /tmp/ccYhwCqs.s:1920   .data:0000000000000003 queue
-     /tmp/ccYhwCqs.s:570    .text.key_press:0000000000000000 key_press
-     /tmp/ccYhwCqs.s:1897   .bss:0000000000000008 locked
-     /tmp/ccYhwCqs.s:1950   .rodata:0000000000000000 layer_fnlock
-     /tmp/ccYhwCqs.s:1156   .text.key_release:0000000000000000 key_release
-     /tmp/ccYhwCqs.s:1596   .text.poll:0000000000000000 poll
-     /tmp/ccYhwCqs.s:2183   .rodata:00000000000000dd row_port
-     /tmp/ccYhwCqs.s:2174   .rodata:00000000000000d8 row_bit
-     /tmp/ccYhwCqs.s:2158   .rodata:00000000000000c0 col_pin
-     /tmp/ccYhwCqs.s:2142   .rodata:00000000000000b4 col_bit
-     /tmp/ccYhwCqs.s:1808   .text.startup.main:0000000000000000 main
+     /tmp/ccuGHzi6.s:1938   .bss:000000000000000c caps_lock_led
+     /tmp/ccuGHzi6.s:115    .text.caps_lock_change_layer:0000000000000000 caps_lock_change_layer
+     /tmp/ccuGHzi6.s:1932   .data:000000000000000a layout
+     /tmp/ccuGHzi6.s:2078   .rodata:0000000000000078 layer1
+     /tmp/ccuGHzi6.s:2014   .rodata:000000000000003c layer_fn
+     /tmp/ccuGHzi6.s:1909   .bss:0000000000000009 prev_layer
+     /tmp/ccuGHzi6.s:2192   .rodata:00000000000000e7 layer2
+     /tmp/ccuGHzi6.s:201    .text.change_layout:0000000000000000 change_layout
+     /tmp/ccuGHzi6.s:1944   .data:000000000000000c os_mode
+     /tmp/ccuGHzi6.s:281    .text.get_code:0000000000000000 get_code
+     /tmp/ccuGHzi6.s:354    .text.repeat_tick:0000000000000000 repeat_tick
+     /tmp/ccuGHzi6.s:1865   .bss:0000000000000000 repeat_time
+     /tmp/ccuGHzi6.s:1870   .bss:0000000000000002 release_time
+     /tmp/ccuGHzi6.s:1903   .data:0000000000000002 turbo_repeat
+     /tmp/ccuGHzi6.s:1914   .bss:000000000000000b mod_keys
+     /tmp/ccuGHzi6.s:1886   .data:0000000000000000 last_key
+     /tmp/ccuGHzi6.s:1875   .bss:0000000000000004 press_time2
+     /tmp/ccuGHzi6.s:1880   .bss:0000000000000006 press_time
+     /tmp/ccuGHzi6.s:506    .text.send:0000000000000000 send
+     /tmp/ccuGHzi6.s:1920   .data:0000000000000003 queue
+     /tmp/ccuGHzi6.s:570    .text.key_press:0000000000000000 key_press
+     /tmp/ccuGHzi6.s:1897   .bss:0000000000000008 locked
+     /tmp/ccuGHzi6.s:1950   .rodata:0000000000000000 layer_fnlock
+     /tmp/ccuGHzi6.s:1156   .text.key_release:0000000000000000 key_release
+     /tmp/ccuGHzi6.s:1596   .text.poll:0000000000000000 poll
+     /tmp/ccuGHzi6.s:2183   .rodata:00000000000000dd row_port
+     /tmp/ccuGHzi6.s:2174   .rodata:00000000000000d8 row_bit
+     /tmp/ccuGHzi6.s:2158   .rodata:00000000000000c0 col_pin
+     /tmp/ccuGHzi6.s:2142   .rodata:00000000000000b4 col_bit
+     /tmp/ccuGHzi6.s:1808   .text.startup.main:0000000000000000 main
 
 UNDEFINED SYMBOLS
 usb_init
