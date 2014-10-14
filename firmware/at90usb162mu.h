@@ -132,9 +132,9 @@ const uint8_t layer_fn[KEYS] = {
 	KEY_F6,				KEY_T,			KEY_G,			KEY_B,			KEY_OS_MODE,		// COL7
 	KEY_F7,				KEY_R,			KEY_F,			KEY_V,			KEY_FN,				// COL8
 	KEY_F8,				KEY_E,			KEY_D,			KEY_C,			KEY_FN_LOCK,		// COL9
-	KEY_F9,				KEY_W,			KEY_S,			KEY_X,			NULL,				// COL10
+	KEY_F9,				KEY_W,			KEY_S,			KEY_X,			KEY_Z,				// COL10
 	KEY_F10,			KEY_Q,			KEY_A,			KEY_Z,			KEY_LOCK,			// COL11
-	KEY_F11,			KEY_ESC,		KEY_PAUSE,		KEY_SCROLL_LOCK,KEY_F12				// COL12
+	KEY_ESC,			KEY_ENTER,		KEY_BACKSPACE,		KEY_SCROLL_LOCK,KEY_F12				// COL12
 };
 
 const uint8_t layer_fnlock[KEYS] = {
